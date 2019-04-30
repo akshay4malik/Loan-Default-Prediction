@@ -1,0 +1,49 @@
+              precision    recall  f1-score   support
+
+           0       0.83      0.68      0.75     52854
+           1       0.31      0.51      0.39     14794
+
+   micro avg       0.65      0.65      0.65     67648
+   macro avg       0.57      0.60      0.57     67648
+weighted avg       0.72      0.65      0.67     67648
+
+estimators = 500, depth - 5
+              precision    recall  f1-score   support
+
+           0       0.83      0.68      0.75     52854
+           1       0.31      0.51      0.39     14794
+
+   micro avg       0.65      0.65      0.65     67648
+   macro avg       0.57      0.60      0.57     67648
+weighted avg       0.72      0.65      0.67     67648
+estimators = 600, depth - 5
+in both cases, pos_weight = 3
+           0       0.82      0.76      0.79     52854
+           1       0.31      0.39      0.35     14794
+
+   micro avg       0.68      0.68      0.68     67648
+   macro avg       0.57      0.58      0.57     67648
+weighted avg       0.71      0.68      0.69     67648
+estimators = 600, depth 10
+
+              precision    recall  f1-score   support
+
+           0       0.83      0.69      0.75     52854
+           1       0.30      0.48      0.37     14794
+
+   micro avg       0.65      0.65      0.65     67648
+   macro avg       0.56      0.59      0.56     67648
+weighted avg       0.71      0.65      0.67     67648
+depth = 3, estimators = 400
+Random Forest 
+              precision    recall  f1-score   support
+
+           0       0.82      0.72      0.77     52854
+           1       0.31      0.45      0.37     14794
+
+   micro avg       0.66      0.66      0.66     67648
+   macro avg       0.57      0.59      0.57     67648
+weighted avg       0.71      0.66      0.68     67648
+
+
+
